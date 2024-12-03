@@ -1,42 +1,31 @@
-//example of let and var
 
-let numero;
-numero=456;
-
-//alert(numero)
-console.log(numero);
-
-var x = 10;
-
-let y = 80;
-
- //alert("1-the value of x is.."+x)
-
- //alert("2-the value of y is.."+y)
-
-console.log(x , y );
+// Example with let
+let age; // Declaration
+age = 25; // Instantiation (first assignment)
+age = 26; // Re-assignment (changing the value)
+console.log( age); // Output: 26
 
 
-//now, change these variables inside the block:
-
-  if (1==1) {
-
-   var x = 20;
-
-   let y =30;
-
-    //alert("3-inside the bracket, the value of  x is.."+x)
-
-    //alert("4-inside the bracket , the value of  y is.."+y)
-
-console.log(x , y);
+// Example with var
+var city = "New York"; 
+var city = "Los Angeles"; // Redeclaration allowed
+console.log("City:", city); // Output: Los Angeles
 
 
+
+//example of var and let inside the block scope
+if (true) {
+  var x = 10; // Function/global scoped
+  let y = 20; // Block scoped
+  console.log("Inside block - x:", x); // Output: 10
+  console.log("Inside block - y:", y); // Output: 20
 }
 
-//alert("5-outside the bracket, the value of x is.."+x)
 
-//alert("6-outside the bracket,the vale of y is.."+y)
+console.log("Outside block - x:", x); // Output: 10
+ //console.log("Outside block - y:", y); // Error: y is not defined
+
+
 
 //example with data types
                
