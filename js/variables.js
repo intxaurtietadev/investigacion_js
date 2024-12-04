@@ -3,11 +3,11 @@
 let age; // Declaration
 age = 25; // Instantiation (first assignment)
 age = 26; // Re-assignment (changing the value)
-console.log( age); // Output: 26
+console.log(age); // Output: 26
 
 
 // Example with var
-var city = "New York"; 
+var city = "New York";
 var city = "Los Angeles"; // Redeclaration allowed
 console.log("City:", city); // Output: Los Angeles
 
@@ -23,27 +23,27 @@ if (true) {
 
 
 console.log("Outside block - x:", x); // Output: 10
- //console.log("Outside block - y:", y); // Error: y is not defined
+//console.log("Outside block - y:", y); // Error: y is not defined
 
 
 
 //example with data types
-               
-           let name="alicia" // de cadena o string
-           let tieneGafas=true; // bouleano
-           let edad=29;  //integer
-           let precio=19.89 //float
-           let house=null;
-           let euros=undefined;
-            alert(name+" "+tieneGafas+" "+edad+" "+precio+" "+house+" "+euros)
+
+let name = "alicia" // de cadena o string
+let tieneGafas = true; // bouleano
+let edad = 29;  //integer
+let precio = 19.89 //float
+let house = null;
+let euros = undefined;
+alert(name + " " + tieneGafas + " " + edad + " " + precio + " " + house + " " + euros)
 
 
 
 
 //example of const
-           
-    
 
-           const iva=12;
-           
-           alert("El IVA es del ..."+iva+" por ciento")
+
+
+const iva = 12;
+
+alert("El IVA es del ..." + iva + " por ciento")

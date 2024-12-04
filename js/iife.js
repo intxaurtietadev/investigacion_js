@@ -3,11 +3,14 @@
   })();
 
   (function (msg){
-    alert(msg);
+    alert('🐈‍⬛...🐈... sigue a los gatitos para aprender JavaScript');
   })();
 
   (function(){
     let name = "Thais"
-    let age = 31
-    alert("Hola, mi nombre es " + name + " y tengo " + age + " años.");
+    let lenguaje = 'JavaScript'
+    prompt('Hola, mi nombre es ' + name + ' y estoy aprendiendo ' + lenguaje +'.');
   })();
+
+  document.write('<p class="red-text">IIFE!!</p>');
+document.write('<p class ="blue-text">Ahora ya sabes autodeclarar funciones 👀</p>');

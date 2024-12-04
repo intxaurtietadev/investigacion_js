@@ -1,7 +1,7 @@
 //NOMINATIVA
 
 function myFunction(){
-    console.log("😈😈😈😈😈");
+    alert("😈😈😈😈😈");
 }
 
 myFunction();
@@ -9,7 +9,9 @@ myFunction();
 //ANONIMA
 
 const mostrarDiablillos = function(){
-    console.log("😈😈😈😈😈");
+    console.log("😈😈 Me gustan los diablillos 😈😈");
 };
 
 mostrarDiablillos();
+document.write('<p class="red-text">Nominativas 🔥🔥 Anónimas</p>');
+document.write('<p class ="blue-text">🎆Son diferentes🎆!!</p>');

@@ -10,3 +10,4 @@ function verificarParImpar(numero) {
   
   // Usando la función
   let resultado = verificarParImpar(10);
+  console.log(resultado);
