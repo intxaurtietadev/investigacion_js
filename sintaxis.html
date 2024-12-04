@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sintaxis.css">
+
+    <title>Sintaxis Javascript</title>
+</head>
+<body>
+    <h1>Sintaxis Javascript</h1>
+    <main>
+        <section>
+            <h2>Ubicación</h2>
+            <p>JavaScript se puede agregar de tres formas principales a una página web:</p>
+    
+            <p>1. Etiquetas: Se puede insertar el código JavaScript dentro de las etiquetas <code>&lt;script&gt;</code> en el archivo HTML.</p>
+            <p>2. Web Page: Se puede incluir JavaScript directamente en las páginas web mediante un enlace a un archivo externo .js.</p>
+            <p>3. Archivo JS: Se puede tener un archivo JavaScript separado con extensión .js que contiene el código y se vincula a la página HTML.</p>
+        </section>
+    
+        <!-- Sección de Comentarios -->
+        <section>
+            <h2>Comentarios</h2>
+            <p>Los comentarios en JavaScript son utilizados para dejar notas dentro del código. Los comentarios no son ejecutados. Hay dos tipos de comentarios:</p>
+            <ul>
+                <li><b>Comentario de una sola línea:</b> Se inicia con <code>//</code></li>
+                <li><b>Comentario de varias líneas:</b> Se inicia con <code>/*</code> y termina con <code>*/</code></li>
+            </ul>
+            
+            <p><b>Ejemplo:</b></p>
+            <pre><code>
+    // Este es un comentario de una sola línea
+    
+    /* 
+    Este es un comentario de múltiples líneas
+    que puede cubrir varias líneas de código
+    */
+    </code></pre>
+        </section>
+    
+        <!-- Sección de Script -->
+        <section>
+            <h2>Script</h2>
+            <p>El código JavaScript generalmente se coloca dentro de las etiquetas <code>&lt;script&gt;</code> en un archivo HTML.</p>
+            
+            <p><b>Ejemplo básico de un script:</b></p>
+            <pre><code>
+    &lt;script&gt;
+      alert('¡Hola, Mundo!');
+    &lt;/script&gt;
+    </code></pre>
+    
+            <p>El código anterior muestra un mensaje emergente en el navegador.</p>
+        </section>
+    
+        <!-- Sección de Modo Estricto -->
+        <section>
+            <h2>Modo Estricto</h2>
+            <p>El modo estricto de JavaScript permite a los desarrolladores escribir un código más seguro y menos propenso a errores. Se activa añadiendo <code>'use strict';</code> al inicio de un archivo o función.</p>
+    
+            <p><b>Ejemplo de uso del modo estricto:</b></p>
+            <pre><code>
+    'use strict';
+    x = 10; // Esto causará un error, porque "x" no ha sido declarada previamente.
+    </code></pre>
+    
+            <p>En el ejemplo, sin el modo estricto, se crearía una variable global sin declarar, pero con el modo estricto se genera un error, ayudando a evitar errores y problemas de seguridad.</p>
+        </section>
+    
+    </main>
+</body>
+</html>

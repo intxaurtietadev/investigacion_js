@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: bisque;
+    
+}
+
+section {
+    margin-bottom: 30px;
+}
+h1{
+    text-align: center;
+    background-color: violet;
+    font-size: 3rem;    
+}
+
+h2 {
+    color: black;
+    background-color: violet;
+    font-size: 2rem;
+    text-align: center;
+}
+
+pre {
+    background-color: pink;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid purple;
+    overflow-x: auto;
+}
+
+code {
+    color: green;
+    font-family: monospace;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.box label {
+    margin-right: 10px;
+}
